@@ -36,8 +36,9 @@ start_xvfb() {
 
 prepare_node() {
   source ~/.nvm/nvm.sh
-  nvm install 4
-  nvm use 4
+  nvm install 7
+  nvm use 7
+  npm i macaca-android -g
 }
 
 npm_install() {
