@@ -9,3 +9,4 @@ install:
   - echo Hello docker!
 script:
   - docker build . -t="macaca-sample/macaca-android-docker"
+  - docker run -it "macaca-sample/macaca-android-docker" &
