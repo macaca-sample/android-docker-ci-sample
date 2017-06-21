@@ -1,4 +1,4 @@
-# Macaca Android Docker Image
+# Macaca Android Docker Sample
 
 [![build status][travis-image]][travis-url]
 
@@ -8,3 +8,4 @@
 ``` bash
 $ docker build . -t="macaca-sample/macaca-android-docker"
 ```
+
